@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Online Shop</title>
+  </head>
+  <body>
+    <div class="preloader">
+      <img src="images/loader.svg" alt="loader" />
+    </div>
+
+    <div class="sponserd">
+      <span>30% off your first purchase</span>
+    </div>
+    <!-- Start Header -->
+    <header class="header" id="header">
+      <nav class="navigation">
+        <div class="nav_center container">
+          <a href="#home" class="logo"> Online<span>Shop</span> </a>
+          <div class="nav_menu">
+            <div class="nav_top">
+              <div class="logo">Online<span>Shop</span></div>
+              <div class="close">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+            <ul class="nav_list">
+              <li><a href="#hero" class="nav_link">Home</a></li>
+              <li><a href="#sort-category" class="nav_link">Products</a></li>
+              <li><a href="#gallary" class="nav_link">Recent</a></li>
+              <li><a href="#brand" class="nav_link">Brands</a></li>
+              <li><a href="#news" class="nav_link">Blog</a></li>
+              <li><a href="#facility" class="nav_link">Facility</a></li>
+            </ul>
+          </div>
+          <div class="nav_icons">
+            <span><i class="fas fa-user"></i></span>
+            <span><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-shopping-basket"></i></span>
+          </div>
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <!-- End nav_center -->
+        <!-- form_search -->
+        <form action="" class="form_search">
+          <input type="search" id="search-bar" placeholder="Search Here..." />
+          <label for="search-bar" class="fas fa-search"></label>
+        </form>
+        <!-- form_login -->
+        <form action="" class="form_login">
+          <i class="fas fa-times close_login"></i>
+          <h2>Login</h2>
+          <input
+            type="email"
+            placeholder="Enter Your Mail"
+            class="double_input"
+          />
+          <input
+            type="password"
+            placeholder="Enter Your Password"
+            class="double_input"
+          />
+          <input type="submit" value="Login" class="button" />
+          <input type="checkbox" id="remember" />
+          <label for="remember">Remember Me</label>
+          <p class="forget">Forget Password? <a href="#">Click here</a></p>
+          <p class="account">
+            Don't have an account? <a href="#">Register now</a>
+          </p>
+        </form>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main -->
+    <main>
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero_slide active">
+            <div class="banner_content">
+              <span>New Inspiration 2020</span>
+              <h2>Clothing Made For You!</h2>
+              <h3>Trending from men and women style collection</h3>
+              <div class="buttons_group">
+                <a href="#" class="btn">shop women's</a>
+                <a href="#" class="btn">shop men's</a>
+              </div>
+            </div>
+            <img src="images/banner_1.png" alt="" />
+          </div>
+          <div class="hero_slide">
+            <div class="banner_content">
+              <span>New Inspiration 2020</span>
+              <h2>Clothing Made For You!</h2>
+              <h3>Trending from men and women style collection</h3>
+              <div class="buttons_group">
+                <a href="#" class="btn">shop women's</a>
+                <a href="#" class="btn">shop men's</a>
+              </div>
+            </div>
+            <img src="images/banner_2.png" alt="" />
+          </div>
+          <div class="hero_slide">
+            <div class="banner_content">
+              <span>New Inspiration 2020</span>
+              <h2>Clothing Made For You!</h2>
+              <h3>Trending from men and women style collection</h3>
+              <div class="buttons_group">
+                <a href="#" class="btn">shop women's</a>
+                <a href="#" class="btn">shop men's</a>
+              </div>
+            </div>
+            <img src="images/banner_3.png" alt="" />
+          </div>
+          <div class="hero_controls">
+            <i class="fas fa-arrow-left left"></i>
+            <i class="fas fa-arrow-right right"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="category" id="category">
+        <h2 class="title">Allow your style to match your ambition!</h2>
+        <div class="container">
+          <div class="category_box">
+            <img src="images/cat1.jpg" alt="" />
+            <div class="info">
+              <h2>Shop for Man</h2>
+              <span>155 Products</span>
+              <a href="#" class="button">Shop Now</a>
+            </div>
+          </div>
+          <div class="category_box">
+            <img src="images/cat2.jpg" alt="" />
+            <div class="info">
+              <h2>Shop for Woman</h2>
+              <span>155 Products</span>
+              <a href="#" class="button">Shop Now</a>
+            </div>
+          </div>
+          <div class="category_box">
+            <img src="images/cat3.jpg" alt="" />
+            <div class="info">
+              <h2>Shop for Man and Women</h2>
+              <span>155 Products</span>
+              <a href="#" class="button">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sort-category" id="sort-category">
+        <div class="title-category caption">
+          <div class="trend active" data-cat=".trending">
+            <span class="dot"></span>
+            <h3 class="primary_title">Trending Products</h3>
+          </div>
+          <div class="trend" data-cat=".special">
+            <span class="dot"></span>
+            <h3 class="primary_title">Special Products</h3>
+          </div>
+          <div class="trend" data-cat=".featured">
+            <span class="dot"></span>
+            <h3 class="primary_title">Featured Products</h3>
+          </div>
+        </div>
+        <div class="container">
+          <div class="box trending">
+            <img src="images/pic2.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box trending">
+            <img src="images/pic3.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box trending">
+            <img src="images/pic4.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box trending">
+            <img src="images/pic1.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box trending">
+            <img src="images/pic15.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box special">
+            <img src="images/pic5.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box special">
+            <img src="images/pic6.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box special">
+            <img src="images/pic7.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box special">
+            <img src="images/pic8.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box featured">
+            <img src="images/pic9.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box featured">
+            <img src="images/pic10.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box featured">
+            <img src="images/pic11.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box featured">
+            <img src="images/pic12.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box featured">
+            <img src="images/pic13.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+          <div class="box featured">
+            <img src="images/pic14.png" alt="pic1" />
+            <div class="info">
+              <h4>Men Casual Shoe</h4>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span>$300</span>
+            </div>
+            <div class="share-icon">
+              <i class="fas fa-eye"></i>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-sync"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallary" id="gallary">
+        <div class="container">
+          <figure class="gallary_item item-1">
+            <img src="images/grid_1.jpg" alt="grid_1" />
+            <div class="info">
+              <h3>Our Popular Products</h3>
+              <a href="#" class="button">View More</a>
+            </div>
+          </figure>
+          <figure class="gallary_item item-2">
+            <img src="images/grid_2.jpg" alt="grid_2" />
+            <div class="info">
+              <h3>Winter Collections</h3>
+            </div>
+          </figure>
+          <figure class="gallary_item item-3">
+            <img src="images/grid_3.jpg" alt="grid_3" />
+            <div class="info">
+              <h3>Summer Collections</h3>
+            </div>
+          </figure>
+          <figure class="gallary_item item-4">
+            <img src="images/grid_4.jpg" alt="grid_4" />
+            <div class="info">
+              <h3>Up to 70% OFF Spring Sale!</h3>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <section class="brand pd-y" id="brand">
+        <div class="caption">
+          <span class="dot"></span>
+          <h2>Our Brands</h2>
+        </div>
+        <div class="container">
+          <div class="brand_box">
+            <img src="images/brand_1.png" alt="brand_1" />
+          </div>
+          <div class="brand_box">
+            <img src="images/brand_2.png" alt="brand_2" />
+          </div>
+          <div class="brand_box">
+            <img src="images/brand_3.png" alt="brand_3" />
+          </div>
+          <div class="brand_box">
+            <img src="images/brand_1.png" alt="brand_1" />
+          </div>
+          <div class="brand_box">
+            <img src="images/brand_3.png" alt="brand_3" />
+          </div>
+        </div>
+      </section>
+
+      <section class="news" id="news">
+        <div class="caption">
+          <span class="dot"></span>
+          <h2>Latest News</h2>
+        </div>
+        <div class="container">
+          <div class="news_box">
+            <img src="images/grid_1.jpg" alt="new_1" />
+            <div class="info">
+              <h3>Styling White Shirts After A Cool Day</h3>
+              <span>By Admin</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                praesentium, numquam non provident rem sed minus natus unde vel
+                modi!
+              </p>
+              <a href="#" class="button">Read More</a>
+            </div>
+          </div>
+          <div class="news_box">
+            <img src="images/grid_2.jpg" alt="new_2" />
+            <div class="info">
+              <h3>Styling White Shirts After A Cool Day</h3>
+              <span>By Admin</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                praesentium, numquam non provident rem sed minus natus unde vel
+                modi!
+              </p>
+              <a href="#" class="button">Read More</a>
+            </div>
+          </div>
+          <div class="news_box">
+            <img src="images/grid_3.jpg" alt="new_3" />
+            <div class="info">
+              <h3>Styling White Shirts After A Cool Day</h3>
+              <span>By Admin</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                praesentium, numquam non provident rem sed minus natus unde vel
+                modi!
+              </p>
+              <a href="#" class="button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="facility" id="facility">
+        <div class="container">
+          <div class="facility_box">
+            <div class="icon"><i class="fas fa-plane"></i></div>
+            <p>FREE SHIPPING WORLD WIDE</p>
+          </div>
+          <div class="facility_box">
+            <div class="icon"><i class="fas fa-credit-card"></i></div>
+            <p>100% MONEY BACK GUARANTEE</p>
+          </div>
+          <div class="facility_box">
+            <div class="icon"><i class="fas fa-cash-register"></i></div>
+            <p>MANY PAYMENT GATWAYS</p>
+          </div>
+          <div class="facility_box">
+            <div class="icon"><i class="fas fa-headset"></i></div>
+            <p>24/7 ONLINE SUPPORT</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="popup">
+        <div class="popup_content">
+          <i class="fas fa-times close-popup"></i>
+          <div class="popup_img">
+            <img src="images/cat2.jpg" alt="cat2" />
+          </div>
+          <div class="popup_info">
+            <h2>Get Discount <span>30%</span> Off</h2>
+            <p>
+              Sign up to our blogletter and save 30% for you next purchase. No
+              spam, we promise!
+            </p>
+            <input type="email" placeholder="Enter your email" />
+            <a href="#" class="button">Subscribe</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="to_top">
+        <i class="fas fa-arrow-up"></i>
+      </div>
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer_content">
+          <div class="footer_box">
+            <h3>EXTRAS</h3>
+            <a href="#">Brands</a>
+            <a href="#">Gift Certificates</a>
+            <a href="#">Affiliate</a>
+            <a href="#">Specials</a>
+            <a href="#">Site Map</a>
+          </div>
+          <div class="footer_box">
+            <h3>INFORMATION</h3>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Site Map</a>
+          </div>
+          <div class="footer_box">
+            <h3>MY ACCOUNT</h3>
+            <a href="#">My Account</a>
+            <a href="#">Order History</a>
+            <a href="#">Wish List</a>
+            <a href="#">blogletter</a>
+            <a href="#">Returns</a>
+          </div>
+          <div class="footer_box contact">
+            <h3>CONTACT US</h3>
+            <div class="desc">
+              <i class="fas fa-map-marker-alt"></i>
+              <a href="#"
+                >42 Dream House, Dreammy street, 7131 Dreamville, USA</a
+              >
+            </div>
+            <div class="desc">
+              <i class="far fa-envelope"></i>
+              <a href="#">company@gmail.com</a>
+            </div>
+            <div class="desc">
+              <i class="fas fa-phone"></i>
+              <a href="#">456-456-4512</a>
+            </div>
+            <div class="desc">
+              <i class="far fa-paper-plane"></i>
+              <a href="#">Dream City, USA</a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          All right reserved &copy; Created by Eslam Salah
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
